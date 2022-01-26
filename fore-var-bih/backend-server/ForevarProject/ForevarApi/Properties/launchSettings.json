@@ -1,0 +1,32 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:49757",
+      "sslPort": 44358
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "ForevarApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/place/",
+      "environmentVariables": {
+        "AUTH_TOKEN": "A9s572T42ac8993PR4",
+        "CNN_STR": "AccountName=internazurestorage;AccountKey=1WLnLAJ5dmV/G5s6M0HqspQiDPs2NshYmOcoNH4So3JlCl4Tc0RRr/oO8uogvDplyrl7Mkt2/g+1olERRCy4Wg==;EndpointSuffix=core.windows.net;DefaultEndpointsProtocol=https;",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://0.0.0.0:5001;http://0.0.0.0:5000"
+    }
+  }
+}

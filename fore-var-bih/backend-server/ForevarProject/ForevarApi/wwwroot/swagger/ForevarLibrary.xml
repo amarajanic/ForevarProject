@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ForevarLibrary</name>
+    </assembly>
+    <members>
+        <member name="P:ForevarLibrary.Models.City.CityId">
+            <summary>
+            City Id.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.City.CityName">
+            <summary>
+            Name of city.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.City.CityLong">
+            <summary>
+            City longitude value.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.City.CityLat">
+            <summary>
+            City latitude value.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.City.DeviceNumber">
+            <summary>
+            Number of devices.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.City.LowestTemp">
+            <summary>
+            Device with lowest temperature measured.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.City.ColdestPlace">
+            <summary>
+            Coldest place in the city.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Device.DeviceId">
+            <summary>
+            Device Id.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Device.RelativeTemperature">
+            <summary>
+            Relative temperature.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Device.RelativeHumidity">
+            <summary>
+            Relative humidity.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Device.DeviceLat">
+            <summary>
+            Device latitude value.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Device.DeviceLong">
+            <summary>
+            Device longitude value.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Device.PlaceId">
+            <summary>
+            Place Id
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Device.PlaceName">
+            <summary>
+            Name of place.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Device.CityId">
+            <summary>
+            City Id.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Device.CityName">
+            <summary>
+            Name of the city.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Device.AdministrationUnit">
+            <summary>
+            Administration Unit.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Payload.Id">
+            <summary>
+            Payload Id.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Payload.Temperature">
+            <summary>
+            Payload temperature.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Payload.Humidity">
+            <summary>
+            Payload humidity.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Payload.Lat">
+            <summary>
+            Payload latitude value.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Payload.Long">
+            <summary>
+            Payload longitude value.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Payload.DeviceId">
+            <summary>
+            Device Id.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Payload.Day">
+            <summary>
+            Day
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Payload.Month">
+            <summary>
+            Month
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Payload.Year">
+            <summary>
+            Year
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Payload.Hour">
+            <summary>
+            Hour
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Payload.DateTime">
+            <summary>
+            Date and time of device measurement.
+            </summary>
+        </member>
+          <member name="P:ForevarLibrary.Models.Payload.CityName">
+            <summary>
+            City of device measurement.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Place.PlaceId">
+            <summary>
+            Place Id.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Place.PlaceName">
+            <summary>
+            Name of a place.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Place.PlaceLong">
+            <summary>
+            Place longitude value.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Place.PlaceLat">
+            <summary>
+            Place latitude value.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Place.AdministrationUnit">
+            <summary>
+            Place Administration Unit.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Place.CityId">
+            <summary>
+            City Id.
+            </summary>
+        </member>
+        <member name="P:ForevarLibrary.Models.Place.CityName">
+            <summary>
+            City name.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  api:
+    image: registry.klinkplatform.com/internship-backend:alpha-latest
+    build:
+      context: .
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - AUTH_TOKEN=A9s572T42ac8993PR4
+    ports:
+      - 5000:80

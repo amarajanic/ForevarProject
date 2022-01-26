@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ForevarLibrary": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Key": "Value"
+      }
+    }
+  }
+}

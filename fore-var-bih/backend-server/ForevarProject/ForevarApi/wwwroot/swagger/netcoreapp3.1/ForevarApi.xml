@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ForevarApi</name>
+    </assembly>
+    <members>
+        <member name="M:ForevarApi.Controllers.CityController.Get(System.Int32)">
+            <summary>
+            Get a device by cityId
+            </summary>
+            <param name="id">Id of a city you want to get devices with.</param>
+            <returns>ActionResult of devices.</returns>
+        </member>
+        <member name="M:ForevarApi.Controllers.CityController.Get">
+            <summary>
+            Get all cities
+            </summary>
+            <returns>ActionResult of cities.</returns>   
+        </member>
+        <member name="M:ForevarApi.Controllers.DeviceController.Get(System.String)">
+            <summary>
+            Get all devices by placeId.
+            </summary>
+            <param name="PlaceId">Id of a place you want get devices with.</param>
+            <returns>ActionResult of devices.</returns>
+        </member>
+        <member name="M:ForevarApi.Controllers.DeviceController.Get(System.Int32,System.Int32)">
+            <summary>
+            Get devices by placeId and deviceId.
+            </summary>
+            <param name="PlaceId">PlaceId parameter.</param>
+            <param name="DeviceId">DeviceId parameter.</param>
+            <returns>ActionResult of devices.</returns>
+        </member>
+        <member name="M:ForevarApi.Controllers.DeviceController.Post(ForevarLibrary.Models.Device,System.String)">
+            <summary>
+            Post a device by its model and placeId.
+            </summary>
+            <param name="model">Device model.</param>
+            <param name="PlaceId">PlaceId parameter.</param>
+            <returns>ActionResult with status code and message.</returns>
+        </member>
+        <member name="M:ForevarApi.Controllers.ObservationController.Get(System.Int32)">
+            <summary>
+            Get all measurements of device by it's id.
+            </summary>
+            <param name="id">DeviceId parameter.</param>
+            <returns>ActionResult of observations.</returns>
+        </member>
+        <member name="M:ForevarApi.Controllers.PlaceController.Get">
+            <summary>
+            Get all places.
+            </summary>
+            <returns>ActionResult of all places.</returns>
+        </member>
+        <member name="M:ForevarApi.Controllers.PlaceController.Get(System.Int32)">
+            <summary>
+            Get place by id.
+            </summary>
+            <param name="id">PlaceId parameter.</param>
+            <returns>ActionResult of place.</returns>
+        </member>
+        <member name="M:ForevarApi.Controllers.PlaceController.Get(System.String)">
+            <summary>
+            Get place by placename.
+            </summary>
+            <param name="placeName">PlaceName parameter.</param>
+            <returns>ActionResult of place.</returns>
+        </member>
+        <member name="M:ForevarApi.Controllers.PlaceController.Post(ForevarLibrary.Models.Place)">
+            <summary>
+            Post a place model.
+            </summary>
+            <param name="model">Model of a place.</param>
+            <returns>ActionResult with status code and message.</returns>
+        </member>
+        <member name="M:ForevarApi.Controllers.SearchController.Get(System.String,System.String,System.String,System.String)">
+            <summary>
+            Filter devices by cityId, cityName, placeName, aUnit.
+            </summary>
+            <param name="cityId">CityId parameter.</param>
+            <param name="cityName">CityName parameter.</param>
+            <param name="placeName">PlaceName parameter.</param>
+            <param name="aUnit">AdministrationUnit parameter.</param>
+            <returns>ActionResult of devices.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  rabbit:
+    image: registry.klinkplatform.com/internship-rabbit:alpha-latest
+    build:
+      context: ../
+      dockerfile: Dockerfile.rmq
