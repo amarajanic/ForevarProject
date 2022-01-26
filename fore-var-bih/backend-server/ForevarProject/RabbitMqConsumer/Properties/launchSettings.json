@@ -6,7 +6,7 @@
         "RABBIT_HOST": "dev-mq.klinkplatform.com",
         "RABBIT_USER": "guest",
         "RABBIT_PORT": "5672",
-        "CNN_STR": "AccountName=internazurestorage;AccountKey=1WLnLAJ5dmV/G5s6M0HqspQiDPs2NshYmOcoNH4So3JlCl4Tc0RRr/oO8uogvDplyrl7Mkt2/g+1olERRCy4Wg==;EndpointSuffix=core.windows.net;DefaultEndpointsProtocol=https;",
+        "CNN_STR": "AccountName=;AccountKey=1;EndpointSuffix=;DefaultEndpointsProtocol=https;",
         "RABBIT_PASS": "guest"
       }
     }
